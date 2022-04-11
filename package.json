@@ -2,6 +2,7 @@
   "name": "sample-typescript-library",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": ["dist"],
   "repository": "https://github.com/tetsurou21/sample-typescript-library.git",
   "author": "tetsurou21 <tetsurou21@gmail.com>",
