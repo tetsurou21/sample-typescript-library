@@ -11,7 +11,8 @@
     "typescript": "^4.6.3"
   },
   "scripts": {
-    "build": "tsc -d",
-    "clean": "rm -fr dist"
+    "build": "tsc",
+    "clean": "rm -fr dist",
+    "postinstall": "yarn && yarn build"
   }
 }
